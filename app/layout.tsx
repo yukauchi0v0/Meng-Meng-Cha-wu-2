@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Noto_Sans_TC, Pacifico } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 // app/layout.tsx 或 pages/_app.tsx
-import '../styles/globals.css'; // **相對路徑，不要以 / 開頭**
+import 'globals.css'; // **相對路徑，不要以 / 開頭**
 
 
 const _notoSansTC = Noto_Sans_TC({
