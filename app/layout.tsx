@@ -2,7 +2,9 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Noto_Sans_TC, Pacifico } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import '../styles/globals.css';
+// app/layout.tsx 或 pages/_app.tsx
+import '../styles/globals.css'; // **相對路徑，不要以 / 開頭**
+
 
 const _notoSansTC = Noto_Sans_TC({
   subsets: ["latin"],
